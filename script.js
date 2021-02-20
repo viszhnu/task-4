@@ -37,7 +37,7 @@ request.onload=function(){
  // 5. Print the country which use US Dollars as currency.
  
  console.log("\n\n5. COUNTRIES WHICH USE US DOLLARS:");
- ans=data.map((item)=>{
+ ans=data.reduce((anss, item)=>{
      var ans1=item.currencies.reduce((ress, item1)=>{
          if(ress===true){
              return true;
