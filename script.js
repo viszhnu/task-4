@@ -45,7 +45,8 @@ request.onload=function(){
              return true;
             }}, false)
     if(ans1){
-        console.log(item);
+        anss.push(item);
     }
- })
+ },[]);
+    console.log(ans);
 }
