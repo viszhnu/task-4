@@ -47,6 +47,7 @@ request.onload=function(){
     if(ans1){
         anss.push(item);
     }
+     return anss;
  },[]);
     console.log(ans);
 }
